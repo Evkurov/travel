@@ -1,0 +1,205 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#section_1 {
+    background-image: url(../image/1.jpg);      
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size:cover;      
+    background-color: #464646;
+    color: #ffffff;
+
+}
+.main-block-menu ul {
+    text-align: center;
+    margin-top:50px;
+}
+.main-block-menu li {
+    display:inline;
+	margin-right:40px;
+	margin-top:50px;
+	
+}
+.main-block-menu a {
+    text-decoration:none;
+	font-size:18px;	
+    color: #ffffff;
+}
+.main-block-menu a:hover {
+    color:#FBAD27;
+}
+
+.Phone-contact  {
+    margin-top:50px;
+	display:inline;
+	float:right;
+	font-size:18px;
+	
+}
+.Phone-contact p {
+    margin-right: 30px;
+}
+
+.travel_title {
+    position: relative;
+}
+.travel_title h1{
+    text-align:center;
+	margin-top:150px;
+	font-size:50px;
+}
+.travel_title  span{
+    text-align:center;
+	margin-top:30px;
+	font-size:15px;
+    display: inherit;
+}
+.center-button {
+    text-align:center;
+	margin-top:20px;
+	margin-bottom:100px;
+    position: relative;
+}
+.center-button  button{
+    border:0px;
+	border-radius:30px;
+	background-color:#FBAD27;
+	padding:10px 30px;
+	margin-bottom: 100px;
+}
+.center-button button:hover {
+    background-color:#FFCE3E;
+}
+.center-button a {
+    text-decoration:none;
+	color:#ffffff;
+	font-size:18px;
+}
+.weltitle{
+    text-align: center;
+    padding:0 300px 0 300px;
+    margin-top:100px;
+}
+.weltitle h1 {
+    margin-bottom: 20px;
+}
+.weltitle span{
+    font-size: 13px;
+    margin-top:50px;
+    font-weight:lighter; 
+    
+}
+.block-1{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.block-1 h3{
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+.block-1 span{
+    font-size: 12px;
+   
+}
+.block-2{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.block-2 h3{
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+.block-2 span{
+    font-size: 12px;
+}
+.block-3 {
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.block-3 h3{
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+.block-3 span{
+    font-size: 12px;
+}
+.img-info-bar {
+    margin-top:150px;
+    
+}
+.img-info-bar a {
+    text-decoration: none;
+    color:#000000;
+}
+.img-info-bar a:hover {
+    color:#595959;
+}
+#section_2{
+    margin-bottom: 100px;
+}
+.border-bottom {
+    border-bottom: 2px solid #dedede;
+    margin-bottom: 30px;
+}
+.radio-slaid {
+    text-align: center;
+    margin-bottom: 30px;
+}
+[type="radio"] {
+  border: 0; 
+  clip: rect(0 0 0 0); 
+  height: 1px; margin: -1px; 
+  overflow: hidden; 
+  padding: 0; 
+  position: absolute; 
+  width: 1px;
+}
+
+/* One radio button per line */
+label {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 2.5;
+  font-size: 1.5em;
+}
+
+[type="radio"] + span {
+  display:inline-block;
+}
+
+/* the basic, unchecked style */
+[type="radio"] + span:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.25em;
+  border-radius: 1em;
+  border: 0.125em solid #fff;
+  box-shadow: 0 0 0 0.15em #000;
+  margin-right: 0.75em;
+  transition: 0.5s ease all;
+}
+
+/* the checked style using the :checked pseudo class */
+[type="radio"]:checked + span:before {
+  background: #FBAD27;
+  box-shadow: 0 0 0 0.25em #FBAD27;
+}
+
+/* never forget focus styling */
+[type="radio"]:focus + span:after {
+ 
+  font-size: 1.5em;
+  line-height: 1;
+  vertical-align: -0.125em;
+}
+
+
+
